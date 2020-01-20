@@ -15,21 +15,21 @@ from plone.testing import z2
 import unittest2 as unittest
 
 
-class GenwebBequesLayer(PloneSandboxLayer):
+class GenwebscholarshipLayer(PloneSandboxLayer):
 
     defaultBases = (PLONE_FIXTURE,)
 
     def setUpZope(self, app, configurationContext):
         """Set up Zope."""
         # Load ZCML
-        import genweb.beques
-        self.loadZCML(package=genweb.beques)
-        z2.installProduct(app, 'genweb.beques')
+        import genweb.scholarship
+        self.loadZCML(package=genweb.scholarship)
+        z2.installProduct(app, 'genweb.scholarship')
 
     def setUpPloneSite(self, portal):
         """Set up Plone."""
         # Install into Plone site using portal_setup
-        applyProfile(portal, 'genweb.beques:default')
+        applyProfile(portal, 'genweb.scholarship:default')
 
         # Login and create some test content
         setRoles(portal, TEST_USER_ID, ['Manager'])
@@ -43,14 +43,14 @@ class GenwebBequesLayer(PloneSandboxLayer):
 
     def tearDownZope(self, app):
         """Tear down Zope."""
-        z2.uninstallProduct(app, 'genweb.beques')
+        z2.uninstallProduct(app, 'genweb.scholarship')
 
 
-FIXTURE = GenwebBequesLayer()
+FIXTURE = GenwebscholarshipLayer()
 INTEGRATION_TESTING = IntegrationTesting(
-    bases=(FIXTURE,), name="GenwebBequesLayer:Integration")
+    bases=(FIXTURE,), name="GenwebscholarshipLayer:Integration")
 FUNCTIONAL_TESTING = FunctionalTesting(
-    bases=(FIXTURE,), name="GenwebBequesLayer:Functional")
+    bases=(FIXTURE,), name="GenwebscholarshipLayer:Functional")
 
 
 class IntegrationTestCase(unittest.TestCase):

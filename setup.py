@@ -7,9 +7,9 @@ version = '0.1'
 README = open("README.rst").read()
 HISTORY = open(os.path.join("docs", "HISTORY.rst")).read()
 
-setup(name='genweb.beques',
+setup(name='genweb.scholarship',
       version=version,
-      description="Manage beques for genweb sites",
+      description="Manage scholarship for genweb sites",
       long_description=README + "\n" + HISTORY,
       classifiers=[
           "Environment :: Web Environment",
@@ -20,10 +20,10 @@ setup(name='genweb.beques',
           "Programming Language :: Python :: 2.7",
           "Topic :: Software Development :: Libraries :: Python Modules",
       ],
-      keywords='genweb, beques, upc',
+      keywords='genweb, scholarship, upc',
       author='PloneTeam',
       author_email='plone.team@upcnet.es',
-      url='https://github.com/UPCnet/genweb.beques',
+      url='https://github.com/UPCnet/genweb.scholarship',
       license='GPL',
       packages=find_packages(exclude=['ez_setup']),
       namespace_packages=['genweb'],

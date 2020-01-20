@@ -5,7 +5,7 @@
     xmlns:grok="http://namespaces.zope.org/grok"
     xmlns:i18n="http://namespaces.zope.org/i18n"
     xmlns:genericsetup="http://namespaces.zope.org/genericsetup"
-    i18n_domain="genweb.beques">
+    i18n_domain="genweb.scholarship">
 
     <!-- Zope2 initialization -->
     <five:registerPackage package="." initialize=".initialize" />
@@ -22,9 +22,9 @@
     <!-- Register the installation GenericSetup extension profile -->
     <genericsetup:registerProfile
         name="default"
-        title="genweb.beques"
+        title="genweb.scholarship"
         directory="profiles/default"
-        description="Extension profile for genweb.beques."
+        description="Extension profile for genweb.scholarship."
         provides="Products.GenericSetup.interfaces.EXTENSION"
         />
 

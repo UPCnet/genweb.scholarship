@@ -3,7 +3,7 @@
 
 from zope.i18nmessageid import MessageFactory
 
-_ = MessageFactory('genweb.beques')
+_ = MessageFactory('genweb.scholarship')
 
 
 def initialize(context):

@@ -1,6 +1,6 @@
 #! /bin/bash
 
-domain=genweb.beques
+domain=genweb.scholarship
 
 export PATH=../../../../../bin
 

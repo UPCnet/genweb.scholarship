@@ -2,7 +2,7 @@
 # Plone Team @ UPCnet <plone.team@upcnet.es>
 msgid ""
 msgstr ""
-"Project-Id-Version: genweb.beques\n"
+"Project-Id-Version: genweb.scholarship\n"
 "POT-Creation-Date: 2020-01-20 10:02+0000\n"
 "PO-Revision-Date: 2020-01-20 09:30+0000\n"
 "Last-Translator: Plone Team @ UPCnet <plone.team@upcnet.es>\n"
@@ -11,15 +11,15 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=1; plural=0\n"
-"Language-Code: en\n"
-"Language-Name: English\n"
+"Language-Code: es\n"
+"Language-Name: Spanish\n"
 "Preferred-Encodings: latin1 utf-8\n"
-"Domain: genweb.beques\n"
+"Domain: genweb.scholarship\n"
 
 #: ../configure.zcml:29
-msgid "Extension profile for genweb.beques."
+msgid "Extension profile for genweb.scholarship."
 msgstr ""
 
 #: ../configure.zcml:29
-msgid "genweb.beques"
+msgid "genweb.scholarship"
 msgstr ""

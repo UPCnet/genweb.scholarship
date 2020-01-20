@@ -1,0 +1,7 @@
+<?xml version="1.0"?>
+<layers>
+  <layer
+    name="genweb.scholarship"
+    interface="genweb.scholarship.interfaces.IGenwebscholarshipLayer"
+  />
+</layers>
