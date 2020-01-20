@@ -1,21 +1,35 @@
 <html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en"
-      xmlns:tal="http://xml.zope.org/namespaces/tal"
-      xmlns:metal="http://xml.zope.org/namespaces/metal"
-      xmlns:i18n="http://xml.zope.org/namespaces/i18n"
-      lang="en"
-      metal:use-macro="context/main_template/macros/master"
-      i18n:domain="genweb.scholarship">
+    xmlns:tal="http://xml.zope.org/namespaces/tal"
+    xmlns:metal="http://xml.zope.org/namespaces/metal"
+    xmlns:i18n="http://xml.zope.org/namespaces/i18n"
+    lang="en"
+    metal:use-macro="context/main_template/macros/master"
+    i18n:domain="genweb.scholarship">
 
-<body>
+    <body>
+        <metal:content-core fill-slot="content-core">
+        <metal:block define-macro="content-core">
 
-  <metal:content-core fill-slot="content-core">
-    <metal:block define-macro="content-core">
+        <h2 i18n:translate="title">Scholarship</h2>
+        <!-- <p tal:content="view/getTitle"></p> -->
 
-      <h2 i18n:translate="title">Scholarship</h2>
-      <p tal:content="view/getTitle"></p>
+        <div class="row-fluid">
+            <h3>Si voleu contactar amb nosaltres:</h3>
+            <div class="row-fluid">
+                <div class="span12">
+                    <h4>Atenció on-line:</h4>
+                    <a class="external-link" href="https://demana.upc.edu/sga/"
+                    target="_blank" title="Demana UPC">
+                        <img src="http://localhost:8080/166/sgaprova/ca/shared/imatges/banner/banner-demana-sga.gif"
+                             alt="Demana SGA" class="image-inline"
+                             title="Demana SGA">
+                    </a>
+                </div>
+            </div>
+        </div>
 
-    </metal:block>
-  </metal:content-core>
+        </metal:block>
+    </metal:content-core>
 
 </body>
 </html>
