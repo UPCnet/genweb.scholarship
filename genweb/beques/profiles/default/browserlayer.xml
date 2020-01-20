@@ -1,0 +1,7 @@
+<?xml version="1.0"?>
+<layers>
+  <layer
+    name="genweb.beques"
+    interface="genweb.beques.interfaces.IGenwebBequesLayer"
+  />
+</layers>
