@@ -10,9 +10,37 @@
         <metal:content-core fill-slot="content-core">
         <metal:block define-macro="content-core">
 
-        <h2 i18n:translate="title">Scholarship</h2>
         <!-- <p tal:content="view/getTitle"></p> -->
-
+        <div class="row-fluid">
+            <div class="span12">
+                <div tal:replace="structure context/organism/output|nothing"/>
+                <div tal:replace="structure context/recipients/output|nothing"/>
+                <div tal:replace="structure context/general_requirements/output|nothing"/>
+                <div tal:replace="structure context/academic_requirements/output|nothing"/>
+                <div tal:replace="structure context/economic_requirements/output|nothing"/>
+                <div tal:replace="structure context/incompatibilities/output|nothing"/>
+                <tal:block condition="context/start_date">
+                    <div tal:content="python:context.start_date.strftime('%d/%m/%Y')"/>
+                </tal:block>
+                <tal:block condition="context/deadline">
+                    <div tal:content="python:context.deadline.strftime('%d/%m/%Y')"/>
+                </tal:block>
+                <div tal:replace="structure context/submission/output|nothing"/>
+                <div tal:replace="structure context/documentation/output|nothing"/>
+                <div tal:replace="structure context/amount|nothing"/>
+                <div tal:replace="structure context/additional_amount|nothing"/>
+                <div tal:replace="structure context/duration/output|nothing"/>
+                <div tal:replace="structure context/payment/output|nothing"/>
+                <div tal:replace="structure context/beneficiaries/output|nothing"/>
+                <div tal:replace="structure context/criteria/output|nothing"/>
+                <tal:block condition="context/award_date">
+                    <div tal:content="python:context.award_date.strftime('%d/%m/%Y')"/>
+                </tal:block>
+                <div tal:replace="structure context/award_resolution/output|nothing"/>
+                <div tal:replace="structure context/allegations/output|nothing"/>
+                <div tal:replace="structure context/regulations/output|nothing"/>
+            </div>
+        </div>
         <div class="row-fluid">
             <h3>Si voleu contactar amb nosaltres:</h3>
             <div class="row-fluid">

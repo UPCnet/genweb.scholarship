@@ -3,7 +3,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: genweb.scholarship\n"
-"POT-Creation-Date: 2020-01-20 10:02+0000\n"
+"POT-Creation-Date: YEAR-MO-DA HO:MI +ZONE\n"
 "PO-Revision-Date: 2020-01-20 09:30+0000\n"
 "Last-Translator: Plone Team @ UPCnet <plone.team@upcnet.es>\n"
 "Language-Team: Plone Team @ UPCnet <plone.team@upcnet.es>\n"
@@ -16,10 +16,98 @@ msgstr ""
 "Preferred-Encodings: latin1 utf-8\n"
 "Domain: genweb.scholarship\n"
 
+#: ../content/scholarship.py:53
+msgid "Academic requirements"
+msgstr "Requisitos académicos"
+
+#: ../content/scholarship.py:101
+msgid "Additional amounts of scholarship"
+msgstr "Importes adicionales de la beca"
+
+#: ../content/scholarship.py:89
+msgid "Additional documentation"
+msgstr "Documentación adicional de la solicitud"
+
+#: ../content/scholarship.py:143
+msgid "Allegations"
+msgstr "Alegaciones"
+
+#: ../content/scholarship.py:77
+msgid "Application deadline"
+msgstr "Fecha fin de la solicitud"
+
+#: ../content/scholarship.py:71
+msgid "Application start date"
+msgstr "Fecha de inicio de la solicitud"
+
+#: ../content/scholarship.py:83
+msgid "Application submission"
+msgstr "Presentación de la solicitud"
+
+#: ../content/scholarship.py:125
+msgid "Award criteria"
+msgstr "Criterios de adjudicación"
+
+#: ../content/scholarship.py:137
+msgid "Award's resolution"
+msgstr "Resolución de la adjudicación"
+
+#: ../content/scholarship.py:131
+msgid "Award's resolution date"
+msgstr "Fecha de la resolución de la adjudicación"
+
+#: ../content/scholarship.py:107
+msgid "Duration of the grant"
+msgstr "Duración de la ayuda"
+
+#: ../content/scholarship.py:59
+msgid "Economic requirements"
+msgstr "Requisitos económicos"
+
 #: ../configure.zcml:29
 msgid "Extension profile for genweb.scholarship."
 msgstr ""
 
+#: ../content/scholarship.py:95
+msgid "General amount of scholarship"
+msgstr "Importe general de la beca"
+
+#: ../content/scholarship.py:47
+msgid "General requirements"
+msgstr "Requisitos generales"
+
+#: ../content/scholarship.py:65
+msgid "Incompatibilities"
+msgstr "Incompatibilidades"
+
+#: ../content/scholarship.py:119
+msgid "Obligations of the beneficiaries"
+msgstr "Obligaciones de los beneficiarios"
+
+#: ../content/scholarship.py:113
+msgid "Payment"
+msgstr "Pago"
+
+#: ../content/scholarship.py:24
+msgid "Recipients"
+msgstr "Destinatarios"
+
+#: ../content/scholarship.py:30
+msgid "Regulations"
+msgstr "Normativas"
+
+#: ../content/scholarship.py:36
+msgid "Requirements tab"
+msgstr "Requisitos"
+
+#: ../content/scholarship.py:18
+msgid "Responsible Organism"
+msgstr "Organismo responsable"
+
+#: ../profiles/default/types/Scholarship.xml
+msgid "Scholarship"
+msgstr "Beca"
+
 #: ../configure.zcml:29
 msgid "genweb.scholarship"
-msgstr ""
+msgstr "Becas en el genweb"
