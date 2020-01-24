@@ -1,7 +1,9 @@
 # -*- coding: utf-8 -*-
 from five import grok
+from genweb.core.utils import pref_lang
 from genweb.scholarship import _
 from Products.Five.browser.pagetemplatefile import ViewPageTemplateFile
+from plone import api
 from plone.app.textfield import RichText
 from plone.dexterity.content import Item
 from plone.directives import dexterity
@@ -157,6 +159,10 @@ class ScholarshipView(grok.View):
     def render(self):
         self.template = ViewPageTemplateFile('scholarship_templates/view.pt')
         return self.template(self)
+
+    def getContactPage(self):
+        contact = api.portal.get()[pref_lang()]['contact']
+        return contact.text.output
 
 
 class Edit(dexterity.EditForm):
