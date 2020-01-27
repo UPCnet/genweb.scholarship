@@ -34,10 +34,10 @@
                         <h3 style="text-align: center;" i18n:translate="">Requirements</h3>
                         <hr class="liniaDalt" />
                         <ul class="list list-index" style="text-align:left; ">
-                            <li><div tal:replace="structure context/general_requirements|nothing"/></li>
-                            <li><div tal:replace="structure context/academic_requirements|nothing"/></li>
-                            <li><div tal:replace="structure context/economic_requirements|nothing"/></li>
-                            <li><div tal:replace="structure context/incompatibilities|nothing"/></li>
+                            <li><div tal:replace="structure context/general_requirements/output|nothing"/></li>
+                            <li><div tal:replace="structure context/academic_requirements/output|nothing"/></li>
+                            <li><div tal:replace="structure context/economic_requirements/output|nothing"/></li>
+                            <li><div tal:replace="structure context/incompatibilities/output|nothing"/></li>
                         </ul>
                     </div>
                 </div>
@@ -64,8 +64,8 @@
                                     </tal:block>
                                 </span>
                             </li>
-                            <li><div tal:replace="structure context/submission|nothing"/></li>
-                            <li><div tal:replace="structure context/documentation|nothing"/></li>
+                            <li><div tal:replace="structure context/submission/output|nothing"/></li>
+                            <li><div tal:replace="structure context/documentation/output|nothing"/></li>
                         </ul>
                     </div>
                 </div>
@@ -90,9 +90,9 @@
                                     <span>€</span>
                                 </span>
                             </li>
-                            <li><div tal:replace="structure context/duration|nothing"/></li>
-                            <li><div tal:replace="structure context/payment|nothing"/></li>
-                            <li><div tal:replace="structure context/beneficiaries|nothing"/></li>
+                            <li><div tal:replace="structure context/duration/output|nothing"/></li>
+                            <li><div tal:replace="structure context/payment/output|nothing"/></li>
+                            <li><div tal:replace="structure context/beneficiaries/output|nothing"/></li>
                         </ul>
                     </div>
                 </div>
@@ -103,7 +103,7 @@
                         <h3 style="text-align: center;" i18n:translate="">Awards</h3>
                         <hr class="liniaDalt" />
                         <ul class="list list-index" style="text-align:left; ">
-                            <li><div tal:replace="structure context/criteria|nothing"/></li>
+                            <li><div tal:replace="structure context/criteria/output|nothing"/></li>
                             <li>
                                 <span>
                                     <strong i18n:translate="">Publication of the award resolution:</strong>
@@ -112,9 +112,9 @@
                                     </tal:block>
                                 </span>
                             </li>
-                            <li><div tal:replace="structure context/award_resolution|nothing"/></li>
-                            <li><div tal:replace="structure context/allegations|nothing"/></li>
-                            <li><div tal:replace="structure context/regulations|nothing"/></li>
+                            <li><div tal:replace="structure context/award_resolution/output|nothing"/></li>
+                            <li><div tal:replace="structure context/allegations/output|nothing"/></li>
+                            <li><div tal:replace="structure context/regulations/output|nothing"/></li>
                         </ul>
                     </div>
                 </div>
