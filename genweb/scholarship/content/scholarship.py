@@ -8,7 +8,6 @@ from plone.app.textfield import RichText
 from plone.dexterity.content import Item
 from plone.directives import dexterity
 from plone.directives import form
-from plone.supermodel.directives import fieldset
 from zope import schema
 from zope.interface import implements
 
@@ -34,16 +33,11 @@ class IScholarship(form.Schema):
         required=False,
     )
 
-    fieldset('requirements',
-             label=_(u'Requirements tab'),
-             fields=['general_requirements', 'academic_requirements',
-                     'economic_requirements', 'incompatibilities',
-                     'start_date', 'deadline', 'submission', 'documentation',
-                     'amount', 'additional_amount', 'duration', 'payment',
-                     'beneficiaries', 'criteria', 'award_date',
-                     'award_resolution', 'allegations'],
-             required=True,
-             )
+    others = RichText(
+        title=_(u"Others"),
+        description=_(u""),
+        required=False,
+    )
 
     general_requirements = RichText(
         title=_(u"General requirements"),

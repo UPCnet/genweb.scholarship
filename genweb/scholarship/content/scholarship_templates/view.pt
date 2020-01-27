@@ -11,29 +11,39 @@
         <metal:block define-macro="content-core">
 
             <div class="row-fluid">
-                <div tal:condition="context/organism/output">
+                <div tal:condition="context/organism">
                     <h2 i18n:translate="">Responsible Organism</h2>
                     <p><tal:block tal:replace="structure context/organism/output|nothing"/></p>
                 </div>
-                <div tal:condition="context/recipients/output">
+                <div tal:condition="context/recipients">
                     <h2 i18n:translate="">Recipients</h2>
                     <p><tal:block tal:replace="structure context/recipients/output|nothing"/></p>
                 </div>
+                <div tal:condition="context/regulations">
+                    <h2 i18n:translate="">Regulations</h2>
+                    <p><tal:block tal:replace="structure context/regulations/output|nothing"/></p>
+                </div>
+                <div tal:condition="context/others">
+                    <h2 i18n:translate="">Others</h2>
+                    <p><tal:block tal:replace="structure context/others/output|nothing"/></p>
+                </div>
             </div>
             <div class="row-fluid">
-                <div class="span6">
+                <div class="span12">
                     <div class="box" style="text-align: left; ">
                         <h3 style="text-align: center;" i18n:translate="">Requirements</h3>
                         <hr class="liniaDalt" />
                         <ul class="list list-index" style="text-align:left; ">
-                            <li><div tal:replace="structure context/general_requirements/output|nothing"/></li>
-                            <li><div tal:replace="structure context/academic_requirements/output|nothing"/></li>
-                            <li><div tal:replace="structure context/economic_requirements/output|nothing"/></li>
-                            <li><div tal:replace="structure context/incompatibilities/output|nothing"/></li>
+                            <li><div tal:replace="structure context/general_requirements|nothing"/></li>
+                            <li><div tal:replace="structure context/academic_requirements|nothing"/></li>
+                            <li><div tal:replace="structure context/economic_requirements|nothing"/></li>
+                            <li><div tal:replace="structure context/incompatibilities|nothing"/></li>
                         </ul>
                     </div>
                 </div>
-                <div class="span6">
+            </div>
+            <div class="row-fluid">
+                <div class="span12">
                     <div class="box" style="text-align: left; ">
                         <h3 style="text-align: center;" i18n:translate="">Application</h3>
                         <hr class="liniaDalt" />
@@ -54,14 +64,14 @@
                                     </tal:block>
                                 </span>
                             </li>
-                            <li><div tal:replace="structure context/submission/output|nothing"/></li>
-                            <li><div tal:replace="structure context/documentation/output|nothing"/></li>
+                            <li><div tal:replace="structure context/submission|nothing"/></li>
+                            <li><div tal:replace="structure context/documentation|nothing"/></li>
                         </ul>
                     </div>
                 </div>
             </div>
             <div class="row-fluid">
-                <div class="span6">
+                <div class="span12">
                     <div class="box" style="text-align: left; ">
                         <h3 style="text-align: center;" i18n:translate="">Scholarship</h3>
                         <hr class="liniaDalt" />
@@ -80,18 +90,20 @@
                                     <span>€</span>
                                 </span>
                             </li>
-                            <li><div tal:replace="structure context/duration/output|nothing"/></li>
-                            <li><div tal:replace="structure context/payment/output|nothing"/></li>
-                            <li><div tal:replace="structure context/beneficiaries/output|nothing"/></li>
+                            <li><div tal:replace="structure context/duration|nothing"/></li>
+                            <li><div tal:replace="structure context/payment|nothing"/></li>
+                            <li><div tal:replace="structure context/beneficiaries|nothing"/></li>
                         </ul>
                     </div>
                 </div>
-                <div class="span6">
+            </div>
+            <div class="row-fluid">
+                <div class="span12">
                     <div class="box" style="text-align: left; ">
                         <h3 style="text-align: center;" i18n:translate="">Awards</h3>
                         <hr class="liniaDalt" />
                         <ul class="list list-index" style="text-align:left; ">
-                            <li><div tal:replace="structure context/criteria/output|nothing"/></li>
+                            <li><div tal:replace="structure context/criteria|nothing"/></li>
                             <li>
                                 <span>
                                     <strong i18n:translate="">Publication of the award resolution:</strong>
@@ -100,23 +112,18 @@
                                     </tal:block>
                                 </span>
                             </li>
-                            <li><div tal:replace="structure context/award_resolution/output|nothing"/></li>
-                            <li><div tal:replace="structure context/allegations/output|nothing"/></li>
-                            <li><div tal:replace="structure context/regulations/output|nothing"/></li>
+                            <li><div tal:replace="structure context/award_resolution|nothing"/></li>
+                            <li><div tal:replace="structure context/allegations|nothing"/></li>
+                            <li><div tal:replace="structure context/regulations|nothing"/></li>
                         </ul>
                     </div>
                 </div>
             </div>
-        <div class="row-fluid">
-            <div tal:condition="context/regulations/output">
-                <h2 i18n:translate="">Regulations</h2>
-                <p><tal:block tal:replace="structure context/regulations/output|nothing"/></p>
+            <div class="row-fluid">
+                <div class="span12">
+                    <div tal:content="structure view/getContactPage" />
+                </div>
             </div>
-        </div>
-        <div class="row-fluid">
-            <div tal:content="structure view/getContactPage" />
-        </div>
-
         </metal:block>
     </metal:content-core>
 
