@@ -8,9 +8,11 @@
     <include package="z3c.jbot" file="meta.zcml" />
 
     <!-- Publish static files -->
+    <!-- ++resource++genweb.scholarship/genweb_scholarship.css -->
     <browser:resourceDirectory
       name="genweb.scholarship"
       directory="static"
       />
+
 
 </configure>
