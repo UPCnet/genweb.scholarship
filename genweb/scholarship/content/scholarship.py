@@ -27,12 +27,6 @@ class IScholarship(form.Schema):
         required=False,
     )
 
-    regulations = RichText(
-        title=_(u"Regulations"),
-        description=_(u""),
-        required=False,
-    )
-
     others = RichText(
         title=_(u"Others"),
         description=_(u""),
@@ -137,6 +131,12 @@ class IScholarship(form.Schema):
 
     allegations = RichText(
         title=_(u"Allegations"),
+        description=_(u""),
+        required=False,
+    )
+
+    regulations = RichText(
+        title=_(u"Regulations"),
         description=_(u""),
         required=False,
     )
