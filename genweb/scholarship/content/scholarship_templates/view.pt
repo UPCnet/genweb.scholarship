@@ -16,9 +16,24 @@
                         <h3 style="text-align: center;" i18n:translate="">General information</h3>
                         <hr class="liniaDalt" />
                         <ul class="list list-index" style="text-align:left; ">
-                            <li><div tal:replace="structure context/organism/output|nothing"/></li>
-                            <li><div tal:replace="structure context/recipients/output|nothing"/></li>
-                            <li><div tal:replace="structure context/others/output|nothing"/></li>
+                            <li>
+                                <span>
+                                    <strong i18n:translate="">Responsible Organism:</strong>
+                                    <span tal:replace="structure context/organism/output|nothing"/>
+                                </span>
+                            </li>
+                            <li>
+                                <span>
+                                    <strong i18n:translate="">Recipients:</strong>
+                                    <span tal:replace="structure context/recipients/output|nothing"/>
+                                </span>
+                            </li>
+                            <li>
+                                <span>
+                                    <strong i18n:translate="">Others:</strong>
+                                    <span tal:replace="structure context/others/output|nothing"/>
+                                </span>
+                            </li>
                         </ul>
                     </div>
                 </div>
@@ -29,10 +44,30 @@
                         <h3 style="text-align: center;" i18n:translate="">Requirements</h3>
                         <hr class="liniaDalt" />
                         <ul class="list list-index" style="text-align:left; ">
-                            <li><div tal:replace="structure context/general_requirements/output|nothing"/></li>
-                            <li><div tal:replace="structure context/academic_requirements/output|nothing"/></li>
-                            <li><div tal:replace="structure context/economic_requirements/output|nothing"/></li>
-                            <li><div tal:replace="structure context/incompatibilities/output|nothing"/></li>
+                            <li>
+                                <span>
+                                    <strong i18n:translate="">General requirements:</strong>
+                                    <span tal:replace="structure context/general_requirements/output|nothing"/>
+                                </span>
+                            </li>
+                            <li>
+                                <span>
+                                    <strong i18n:translate="">Academic requirements:</strong>
+                                    <span tal:replace="structure context/academic_requirements/output|nothing"/>
+                                </span>
+                            </li>
+                            <li>
+                                <span>
+                                    <strong i18n:translate="">Economic requirements:</strong>
+                                    <span tal:replace="structure context/economic_requirements/output|nothing"/>
+                                </span>
+                            </li>
+                            <li>
+                                <span>
+                                    <strong i18n:translate="">Incompatibilities:</strong>
+                                    <span tal:replace="structure context/incompatibilities/output|nothing"/>
+                                </span>
+                            </li>
                         </ul>
                     </div>
                 </div>
@@ -59,8 +94,18 @@
                                     </tal:block>
                                 </span>
                             </li>
-                            <li><div tal:replace="structure context/submission/output|nothing"/></li>
-                            <li><div tal:replace="structure context/documentation/output|nothing"/></li>
+                            <li>
+                                <span>
+                                    <strong i18n:translate="">Application submission:</strong>
+                                    <span tal:replace="structure context/submission/output|nothing"/>
+                                </span>
+                            </li>
+                            <li>
+                                <span>
+                                    <strong i18n:translate="">Additional documentation:</strong>
+                                    <span tal:replace="structure context/documentation/output|nothing"/>
+                                </span>
+                            </li>
                         </ul>
                     </div>
                 </div>
@@ -85,9 +130,24 @@
                                     <span>€</span>
                                 </span>
                             </li>
-                            <li><div tal:replace="structure context/duration/output|nothing"/></li>
-                            <li><div tal:replace="structure context/payment/output|nothing"/></li>
-                            <li><div tal:replace="structure context/beneficiaries/output|nothing"/></li>
+                            <li>
+                                <span>
+                                    <strong i18n:translate="">Duration of the grant:</strong>
+                                    <span tal:replace="structure context/duration/output|nothing"/>
+                                </span>
+                            </li>
+                            <li>
+                                <span>
+                                    <strong i18n:translate="">Payment:</strong>
+                                    <span tal:replace="structure context/payment/output|nothing"/>
+                                </span>
+                            </li>
+                            <li>
+                                <span>
+                                    <strong i18n:translate="">Obligations of the beneficiaries:</strong>
+                                    <span tal:replace="structure context/beneficiaries/output|nothing"/>
+                                </span>
+                            </li>
                         </ul>
                     </div>
                 </div>
@@ -98,7 +158,12 @@
                         <h3 style="text-align: center;" i18n:translate="">Awards</h3>
                         <hr class="liniaDalt" />
                         <ul class="list list-index" style="text-align:left; ">
-                            <li><div tal:replace="structure context/criteria/output|nothing"/></li>
+                            <li>
+                                <span>
+                                    <strong i18n:translate="">Award criteria:</strong>
+                                    <span tal:replace="structure context/criteria/output|nothing"/>
+                                </span>
+                            </li>
                             <li>
                                 <span>
                                     <strong i18n:translate="">Publication of the award resolution:</strong>
@@ -107,9 +172,18 @@
                                     </tal:block>
                                 </span>
                             </li>
-                            <li><div tal:replace="structure context/award_resolution/output|nothing"/></li>
-                            <li><div tal:replace="structure context/allegations/output|nothing"/></li>
-                            <li><div tal:replace="structure context/regulations/output|nothing"/></li>
+                            <li>
+                                <span>
+                                    <strong i18n:translate="">Award's resolution:</strong>
+                                    <span tal:replace="structure context/award_resolution/output|nothing"/>
+                                </span>
+                            </li>
+                            <li>
+                                <span>
+                                    <strong i18n:translate="">Allegations:</strong>
+                                    <span tal:replace="structure context/allegations/output|nothing"/>
+                                </span>
+                            </li>
                         </ul>
                     </div>
                 </div>
@@ -120,7 +194,12 @@
                         <h3 style="text-align: center;" i18n:translate="">More information</h3>
                         <hr class="liniaDalt" />
                         <ul class="list list-index" style="text-align:left; ">
-                            <li><div tal:replace="structure context/regulations/output|nothing"/></li>
+                            <li>
+                                <span>
+                                    <strong i18n:translate="">Regulations:</strong>
+                                    <span tal:replace="structure context/regulations/output|nothing"/>
+                                </span>
+                            </li>
                         </ul>
                     </div>
                 </div>

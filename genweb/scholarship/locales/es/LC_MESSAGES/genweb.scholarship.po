@@ -16,67 +16,99 @@ msgstr ""
 "Preferred-Encodings: latin1 utf-8\n"
 "Domain: genweb.scholarship\n"
 
-#: ../content/scholarship.py:49
+#: ../content/scholarship.py:43
 msgid "Academic requirements"
 msgstr "Requisitos académicos"
 
-#: ../content/scholarship.py:97
+#: ../content/scholarship_templates/view.pt:55
+msgid "Academic requirements:"
+msgstr "Requisitos académicos:"
+
+#: ../content/scholarship.py:91
 msgid "Additional amounts of scholarship"
 msgstr "Importes adicionales de la beca"
 
-#: ../content/scholarship_templates/view.pt:88
+#: ../content/scholarship_templates/view.pt:128
 msgid "Additional amounts of scholarship:"
 msgstr "Importes adicionales de la beca:"
 
-#: ../content/scholarship.py:85
+#: ../content/scholarship.py:79
 msgid "Additional documentation"
 msgstr "Documentación adicional de la solicitud"
 
-#: ../content/scholarship.py:139
+#: ../content/scholarship_templates/view.pt:105
+msgid "Additional documentation:"
+msgstr "Documentación adicional de la solicitud:"
+
+#: ../content/scholarship.py:133
 msgid "Allegations"
 msgstr "Alegaciones"
 
-#: ../content/scholarship_templates/view.pt:48
+#: ../content/scholarship_templates/view.pt:183
+msgid "Allegations:"
+msgstr "Alegaciones:"
+
+#: ../content/scholarship_templates/view.pt:78
 msgid "Application"
 msgstr "Solicitud"
 
-#: ../content/scholarship.py:73
+#: ../content/scholarship.py:67
 msgid "Application deadline"
 msgstr "Fecha fin de la solicitud"
 
-#: ../content/scholarship.py:67
+#: ../content/scholarship.py:61
 msgid "Application start date"
 msgstr "Fecha de inicio de la solicitud"
 
-#: ../content/scholarship.py:79
+#: ../content/scholarship.py:73
 msgid "Application submission"
 msgstr "Presentación de la solicitud"
 
-#: ../content/scholarship.py:121
+#: ../content/scholarship_templates/view.pt:99
+msgid "Application submission:"
+msgstr "Presentación de la solicitud:"
+
+#: ../content/scholarship.py:115
 msgid "Award criteria"
 msgstr "Criterios de adjudicación"
 
-#: ../content/scholarship.py:133
+#: ../content/scholarship_templates/view.pt:163
+msgid "Award criteria:"
+msgstr "Criterios de adjudicación:"
+
+#: ../content/scholarship.py:127
 msgid "Award's resolution"
 msgstr "Resolución de la adjudicación"
 
-#: ../content/scholarship.py:127
+#: ../content/scholarship.py:121
 msgid "Award's resolution date"
 msgstr "Fecha de la resolución de la adjudicación"
 
-#: ../content/scholarship_templates/view.pt:103
+#: ../content/scholarship_templates/view.pt:177
+msgid "Award's resolution:"
+msgstr "Resolución de la adjudicación:"
+
+#: ../content/scholarship_templates/view.pt:158
 msgid "Awards"
 msgstr "Adjudicació"
 
-#: ../content/scholarship.py:103
+#: ../content/scholarship.py:97
 msgid "Duration of the grant"
 msgstr "Duración de la ayuda"
 
-#: ../content/scholarship.py:55
+#: ../content/scholarship_templates/view.pt:135
+msgid "Duration of the grant:"
+msgstr "Duración de la ayuda:"
+
+#: ../content/scholarship.py:49
 msgid "Economic requirements"
 msgstr "Requisitos económicos"
 
 #: ../content/scholarship_templates/view.pt:61
+msgid "Economic requirements:"
+msgstr "Requisitos económicos:"
+
+#: ../content/scholarship_templates/view.pt:91
 msgid "End date of application:"
 msgstr "Última fecha para presentar la solicitud:"
 
@@ -84,67 +116,103 @@ msgstr "Última fecha para presentar la solicitud:"
 msgid "Extension profile for genweb.scholarship."
 msgstr ""
 
-#: ../content/scholarship.py:91
+#: ../content/scholarship.py:85
 msgid "General amount of scholarship"
 msgstr "Importe general de la beca"
 
-#: ../content/scholarship_templates/view.pt:81
+#: ../content/scholarship_templates/view.pt:121
 msgid "General amount of scholarship:"
 msgstr "Importe general de la beca:"
 
-#: ../content/scholarship.py:43
+#: ../content/scholarship_templates/view.pt:16
+msgid "General information"
+msgstr "Información general"
+
+#: ../content/scholarship.py:37
 msgid "General requirements"
 msgstr "Requisitos generales"
 
-#: ../content/scholarship.py:61
+#: ../content/scholarship_templates/view.pt:49
+msgid "General requirements:"
+msgstr "Requisitos generales:"
+
+#: ../content/scholarship.py:55
 msgid "Incompatibilities"
 msgstr "Incompatibilidades"
 
-#: ../content/scholarship.py:115
+#: ../content/scholarship_templates/view.pt:67
+msgid "Incompatibilities:"
+msgstr "Incompatibilidades:"
+
+#: ../content/scholarship_templates/view.pt:194
+msgid "More information"
+msgstr "Más información"
+
+#: ../content/scholarship.py:109
 msgid "Obligations of the beneficiaries"
 msgstr "Obligaciones de los beneficiarios"
 
-#: ../content/scholarship.py:37
-#: ../content/scholarship_templates/view.pt:27
+#: ../content/scholarship_templates/view.pt:147
+msgid "Obligations of the beneficiaries:"
+msgstr "Obligaciones de los beneficiarios:"
+
+#: ../content/scholarship.py:31
 msgid "Others"
 msgstr "Otros"
 
-#: ../content/scholarship.py:109
+#: ../content/scholarship_templates/view.pt:33
+msgid "Others:"
+msgstr "Otros:"
+
+#: ../content/scholarship.py:103
 msgid "Payment"
 msgstr "Pago"
 
-#: ../content/scholarship_templates/view.pt:109
+#: ../content/scholarship_templates/view.pt:141
+msgid "Payment:"
+msgstr "Pago:"
+
+#: ../content/scholarship_templates/view.pt:169
 msgid "Publication of the award resolution:"
 msgstr "Publicación de la resolución de la adjudicación:"
 
 #: ../content/scholarship.py:25
-#: ../content/scholarship_templates/view.pt:19
 msgid "Recipients"
 msgstr "Destinatarios"
 
-#: ../content/scholarship.py:31
-#: ../content/scholarship_templates/view.pt:23
+#: ../content/scholarship_templates/view.pt:27
+msgid "Recipients:"
+msgstr "Destinatarios:"
+
+#: ../content/scholarship.py:139
 msgid "Regulations"
 msgstr "Normativas"
 
-#: ../content/scholarship_templates/view.pt:34
+#: ../content/scholarship_templates/view.pt:199
+msgid "Regulations:"
+msgstr "Normativas:"
+
+#: ../content/scholarship_templates/view.pt:44
 msgid "Requirements"
 msgstr "Requisitos"
 
 #: ../content/scholarship.py:19
-#: ../content/scholarship_templates/view.pt:15
 msgid "Responsible Organism"
 msgstr "Organismo responsable"
 
-#: ../content/scholarship_templates/view.pt:76
+#: ../content/scholarship_templates/view.pt:21
+msgid "Responsible Organism:"
+msgstr "Organismo responsable:"
+
+#: ../content/scholarship_templates/view.pt:116
 #: ../profiles/default/types/Scholarship.xml
 msgid "Scholarship"
 msgstr "Beca"
 
-#: ../content/scholarship_templates/view.pt:53
+#: ../content/scholarship_templates/view.pt:83
 msgid "Start date of application:"
-msgstr "Fecha de inicio de la solicitud"
+msgstr "Fecha de inicio de la solicitud:"
 
 #: ../configure.zcml:32
 msgid "genweb.scholarship"
-msgstr "Becas en el genweb"
+msgstr "genweb.scholarship"
