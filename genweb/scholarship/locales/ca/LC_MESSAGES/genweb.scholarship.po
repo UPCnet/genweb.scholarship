@@ -16,7 +16,7 @@ msgstr ""
 "Preferred-Encodings: latin1 utf-8\n"
 "Domain: genweb.scholarship\n"
 
-#: ../content/scholarship.py:43
+#: ../content/scholarship.py:56
 msgid "Academic requirements"
 msgstr "Requisits acadèmics"
 
@@ -24,7 +24,7 @@ msgstr "Requisits acadèmics"
 msgid "Academic requirements:"
 msgstr "Acadèmics:"
 
-#: ../content/scholarship.py:91
+#: ../content/scholarship.py:116
 msgid "Additional amounts of scholarship"
 msgstr "Imports addicionals de la beca"
 
@@ -32,7 +32,7 @@ msgstr "Imports addicionals de la beca"
 msgid "Additional amounts of scholarship:"
 msgstr "Imports addicionals:"
 
-#: ../content/scholarship.py:79
+#: ../content/scholarship.py:98
 msgid "Additional documentation"
 msgstr "Documentació addicional de la sol·licitud"
 
@@ -40,7 +40,7 @@ msgstr "Documentació addicional de la sol·licitud"
 msgid "Additional documentation:"
 msgstr "Documentació addicional:"
 
-#: ../content/scholarship.py:133
+#: ../content/scholarship.py:164
 msgid "Allegations"
 msgstr "Al·legacions"
 
@@ -52,15 +52,15 @@ msgstr "Al·legacions:"
 msgid "Application"
 msgstr "Sol·licitud"
 
-#: ../content/scholarship.py:67
+#: ../content/scholarship.py:86
 msgid "Application deadline"
 msgstr "Data fi de la sol·licitud"
 
-#: ../content/scholarship.py:61
+#: ../content/scholarship.py:80
 msgid "Application start date"
-msgstr "Data d'inici de la sol·licituid"
+msgstr "Data d'inici de la sol·licitud"
 
-#: ../content/scholarship.py:73
+#: ../content/scholarship.py:92
 msgid "Application submission"
 msgstr "Presentació de la sol·licitud"
 
@@ -68,7 +68,11 @@ msgstr "Presentació de la sol·licitud"
 msgid "Application submission:"
 msgstr "Presentació:"
 
-#: ../content/scholarship.py:115
+#: ../content/scholarship.py:141
+msgid "Award"
+msgstr "Adjudicació"
+
+#: ../content/scholarship.py:146
 msgid "Award criteria"
 msgstr "Criteris d’adjudicació"
 
@@ -76,11 +80,11 @@ msgstr "Criteris d’adjudicació"
 msgid "Award criteria:"
 msgstr "Criteris:"
 
-#: ../content/scholarship.py:127
+#: ../content/scholarship.py:158
 msgid "Award's resolution"
 msgstr "Publicació de la resolució de l'adjudicació"
 
-#: ../content/scholarship.py:121
+#: ../content/scholarship.py:152
 msgid "Award's resolution date"
 msgstr "Data de resolució de l’adjudicació"
 
@@ -92,7 +96,7 @@ msgstr "Publicació de la resolució:"
 msgid "Awards"
 msgstr "Adjudicació"
 
-#: ../content/scholarship.py:97
+#: ../content/scholarship.py:122
 msgid "Duration of the grant"
 msgstr "Durada de l’ajut"
 
@@ -100,7 +104,7 @@ msgstr "Durada de l’ajut"
 msgid "Duration of the grant:"
 msgstr "Durada de l’ajut:"
 
-#: ../content/scholarship.py:49
+#: ../content/scholarship.py:62
 msgid "Economic requirements"
 msgstr "Requisits econòmics"
 
@@ -112,11 +116,11 @@ msgstr "Econòmics:"
 msgid "End date of application:"
 msgstr "Data fi:"
 
-#: ../configure.zcml:32
+#: ../configure.zcml:33
 msgid "Extension profile for genweb.scholarship."
 msgstr ""
 
-#: ../content/scholarship.py:85
+#: ../content/scholarship.py:110
 msgid "General amount of scholarship"
 msgstr "Import general beca"
 
@@ -124,11 +128,12 @@ msgstr "Import general beca"
 msgid "General amount of scholarship:"
 msgstr "Import general:"
 
+#: ../content/scholarship.py:21
 #: ../content/scholarship_templates/view.pt:16
 msgid "General information"
 msgstr "Informació general"
 
-#: ../content/scholarship.py:37
+#: ../content/scholarship.py:50
 msgid "General requirements"
 msgstr "Requisits generals"
 
@@ -136,7 +141,7 @@ msgstr "Requisits generals"
 msgid "General requirements:"
 msgstr "Generals:"
 
-#: ../content/scholarship.py:55
+#: ../content/scholarship.py:68
 msgid "Incompatibilities"
 msgstr "Incompatibilitats"
 
@@ -144,11 +149,12 @@ msgstr "Incompatibilitats"
 msgid "Incompatibilities:"
 msgstr "Incompatibilitats:"
 
+#: ../content/scholarship.py:171
 #: ../content/scholarship_templates/view.pt:194
 msgid "More information"
 msgstr "Més informació"
 
-#: ../content/scholarship.py:109
+#: ../content/scholarship.py:134
 msgid "Obligations of the beneficiaries"
 msgstr "Obligacions dels beneficiaris"
 
@@ -156,7 +162,7 @@ msgstr "Obligacions dels beneficiaris"
 msgid "Obligations of the beneficiaries:"
 msgstr "Obligacions dels beneficiaris:"
 
-#: ../content/scholarship.py:31
+#: ../content/scholarship.py:38
 msgid "Others"
 msgstr "Altres"
 
@@ -164,7 +170,7 @@ msgstr "Altres"
 msgid "Others:"
 msgstr "Altres:"
 
-#: ../content/scholarship.py:103
+#: ../content/scholarship.py:128
 msgid "Payment"
 msgstr "Pagament"
 
@@ -176,7 +182,7 @@ msgstr "Pagament:"
 msgid "Publication of the award resolution:"
 msgstr "Data de la resolució:"
 
-#: ../content/scholarship.py:25
+#: ../content/scholarship.py:32
 msgid "Recipients"
 msgstr "Destinataris"
 
@@ -184,7 +190,7 @@ msgstr "Destinataris"
 msgid "Recipients:"
 msgstr "Destinataris:"
 
-#: ../content/scholarship.py:139
+#: ../content/scholarship.py:176
 msgid "Regulations"
 msgstr "Normativa"
 
@@ -192,11 +198,16 @@ msgstr "Normativa"
 msgid "Regulations:"
 msgstr "Normativa:"
 
+#: ../content/scholarship.py:75
+msgid "Request"
+msgstr "Sol·licitud"
+
+#: ../content/scholarship.py:45
 #: ../content/scholarship_templates/view.pt:44
 msgid "Requirements"
 msgstr "Requisits"
 
-#: ../content/scholarship.py:19
+#: ../content/scholarship.py:26
 msgid "Responsible Organism"
 msgstr "Organisme reponsable"
 
@@ -204,6 +215,7 @@ msgstr "Organisme reponsable"
 msgid "Responsible Organism:"
 msgstr "Organisme reponsable:"
 
+#: ../content/scholarship.py:105
 #: ../content/scholarship_templates/view.pt:116
 #: ../profiles/default/types/Scholarship.xml
 msgid "Scholarship"
@@ -213,6 +225,6 @@ msgstr "Beca"
 msgid "Start date of application:"
 msgstr "Data d'inici:"
 
-#: ../configure.zcml:32
+#: ../configure.zcml:33
 msgid "genweb.scholarship"
 msgstr "genweb.scholarship"

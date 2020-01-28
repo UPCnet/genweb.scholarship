@@ -2,6 +2,7 @@
 from five import grok
 from genweb.core.utils import pref_lang
 from genweb.scholarship import _
+from genweb.scholarship.z3cwidget import FieldsetFieldWidget
 from Products.Five.browser.pagetemplatefile import ViewPageTemplateFile
 from plone import api
 from plone.app.textfield import RichText
@@ -14,6 +15,12 @@ from zope.interface import implements
 
 class IScholarship(form.Schema):
     """ Scholarship schema """
+
+    form.widget('fieldset_info', FieldsetFieldWidget)
+    fieldset_info = schema.Text(
+        default=_(u'General information'),
+        required=False,
+    )
 
     organism = RichText(
         title=_(u"Responsible Organism"),
@@ -30,6 +37,12 @@ class IScholarship(form.Schema):
     others = RichText(
         title=_(u"Others"),
         description=_(u""),
+        required=False,
+    )
+
+    form.widget('fieldset_requirements', FieldsetFieldWidget)
+    fieldset_requirements = schema.Text(
+        default=_(u'Requirements'),
         required=False,
     )
 
@@ -57,6 +70,12 @@ class IScholarship(form.Schema):
         required=False,
     )
 
+    form.widget('fieldset_request', FieldsetFieldWidget)
+    fieldset_request = schema.Text(
+        default=_(u'Request'),
+        required=False,
+    )
+
     start_date = schema.Date(
         title=_(u"Application start date"),
         description=_(u""),
@@ -78,6 +97,12 @@ class IScholarship(form.Schema):
     documentation = RichText(
         title=_(u"Additional documentation"),
         description=_(u""),
+        required=False,
+    )
+
+    form.widget('fieldset_scholarship', FieldsetFieldWidget)
+    fieldset_scholarship = schema.Text(
+        default=_(u'Scholarship'),
         required=False,
     )
 
@@ -111,6 +136,12 @@ class IScholarship(form.Schema):
         required=False,
     )
 
+    form.widget('fieldset_award', FieldsetFieldWidget)
+    fieldset_award = schema.Text(
+        default=_(u'Award'),
+        required=False,
+    )
+
     criteria = RichText(
         title=_(u"Award criteria"),
         description=_(u""),
@@ -132,6 +163,12 @@ class IScholarship(form.Schema):
     allegations = RichText(
         title=_(u"Allegations"),
         description=_(u""),
+        required=False,
+    )
+
+    form.widget('fieldset_more', FieldsetFieldWidget)
+    fieldset_more = schema.Text(
+        default=_(u'More information'),
         required=False,
     )
 
