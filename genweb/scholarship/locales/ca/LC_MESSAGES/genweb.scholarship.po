@@ -22,7 +22,7 @@ msgstr "Requisits acadèmics"
 
 #: ../content/scholarship_templates/view.pt:55
 msgid "Academic requirements:"
-msgstr "Requisits acadèmics:"
+msgstr "Acadèmics:"
 
 #: ../content/scholarship.py:91
 msgid "Additional amounts of scholarship"
@@ -30,7 +30,7 @@ msgstr "Imports addicionals de la beca"
 
 #: ../content/scholarship_templates/view.pt:128
 msgid "Additional amounts of scholarship:"
-msgstr "Imports addicionals de la beca:"
+msgstr "Imports addicionals:"
 
 #: ../content/scholarship.py:79
 msgid "Additional documentation"
@@ -38,7 +38,7 @@ msgstr "Documentació addicional de la sol·licitud"
 
 #: ../content/scholarship_templates/view.pt:105
 msgid "Additional documentation:"
-msgstr "Documentació addicional de la sol·licitud:"
+msgstr "Documentació addicional:"
 
 #: ../content/scholarship.py:133
 msgid "Allegations"
@@ -66,7 +66,7 @@ msgstr "Presentació de la sol·licitud"
 
 #: ../content/scholarship_templates/view.pt:99
 msgid "Application submission:"
-msgstr "Presentació de la sol·licitud:"
+msgstr "Presentació:"
 
 #: ../content/scholarship.py:115
 msgid "Award criteria"
@@ -74,11 +74,11 @@ msgstr "Criteris d’adjudicació"
 
 #: ../content/scholarship_templates/view.pt:163
 msgid "Award criteria:"
-msgstr "Criteris d’adjudicació:"
+msgstr "Criteris:"
 
 #: ../content/scholarship.py:127
 msgid "Award's resolution"
-msgstr "Resolució de l’adjudicació"
+msgstr "Publicació de la resolució de l'adjudicació"
 
 #: ../content/scholarship.py:121
 msgid "Award's resolution date"
@@ -86,7 +86,7 @@ msgstr "Data de resolució de l’adjudicació"
 
 #: ../content/scholarship_templates/view.pt:177
 msgid "Award's resolution:"
-msgstr "Resolució de l’adjudicació:"
+msgstr "Publicació de la resolució:"
 
 #: ../content/scholarship_templates/view.pt:158
 msgid "Awards"
@@ -106,11 +106,11 @@ msgstr "Requisits econòmics"
 
 #: ../content/scholarship_templates/view.pt:61
 msgid "Economic requirements:"
-msgstr "Requisits econòmics:"
+msgstr "Econòmics:"
 
 #: ../content/scholarship_templates/view.pt:91
 msgid "End date of application:"
-msgstr "Data fi de la sol·licitud:"
+msgstr "Data fi:"
 
 #: ../configure.zcml:32
 msgid "Extension profile for genweb.scholarship."
@@ -122,7 +122,7 @@ msgstr "Import general beca"
 
 #: ../content/scholarship_templates/view.pt:121
 msgid "General amount of scholarship:"
-msgstr "Import general beca:"
+msgstr "Import general:"
 
 #: ../content/scholarship_templates/view.pt:16
 msgid "General information"
@@ -134,7 +134,7 @@ msgstr "Requisits generals"
 
 #: ../content/scholarship_templates/view.pt:49
 msgid "General requirements:"
-msgstr "Requisits generals:"
+msgstr "Generals:"
 
 #: ../content/scholarship.py:55
 msgid "Incompatibilities"
@@ -174,7 +174,7 @@ msgstr "Pagament:"
 
 #: ../content/scholarship_templates/view.pt:169
 msgid "Publication of the award resolution:"
-msgstr "Publicació de la resolució de l’adjudicació:"
+msgstr "Data de la resolució:"
 
 #: ../content/scholarship.py:25
 msgid "Recipients"
@@ -186,11 +186,11 @@ msgstr "Destinataris:"
 
 #: ../content/scholarship.py:139
 msgid "Regulations"
-msgstr "Normatives"
+msgstr "Normativa"
 
 #: ../content/scholarship_templates/view.pt:199
 msgid "Regulations:"
-msgstr "Normatives:"
+msgstr "Normativa:"
 
 #: ../content/scholarship_templates/view.pt:44
 msgid "Requirements"
@@ -211,7 +211,7 @@ msgstr "Beca"
 
 #: ../content/scholarship_templates/view.pt:83
 msgid "Start date of application:"
-msgstr "Data d'inici de la sol·licitud:"
+msgstr "Data d'inici:"
 
 #: ../configure.zcml:32
 msgid "genweb.scholarship"
