@@ -11,6 +11,17 @@ from plone.directives import dexterity
 from plone.directives import form
 from zope import schema
 from zope.interface import implements
+from zope.schema.vocabulary import SimpleVocabulary
+from zope.schema.vocabulary import SimpleTerm
+
+
+sch_types = [u"Estudis", u"Mobilitat", ]
+
+
+def build_vocabulary(values):
+    return SimpleVocabulary([
+        SimpleTerm(title=_(value), value=value, token=token)
+        for token, value in enumerate(values)])
 
 
 class IScholarship(form.Schema):
@@ -20,6 +31,12 @@ class IScholarship(form.Schema):
     fieldset_info = schema.Text(
         default=_(u'General information'),
         required=False,
+    )
+
+    scholarship_type = schema.Choice(
+        title=_(u'scholarship_type'),
+        required=True,
+        vocabulary=SimpleVocabulary(build_vocabulary(sch_types))
     )
 
     organism = RichText(
