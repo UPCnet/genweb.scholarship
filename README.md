@@ -2,6 +2,7 @@
 
 ## /api/scholarships
 
+```json
 {
   "items": [
     {
@@ -19,7 +20,7 @@
       "description": "Descripci\u00f3 beca",
       "end_date": "25/06/2020",
       "id": "beca-de-prova",
-      "path": "http://localhost:8080/166/sgaprova/ca/normativas/beca-de-prova",
+      "path": "http://localhost/166/sgaprova/ca/normativas/beca-de-prova",
       "scholarship_type": "Mobilitat",
       "start_date": "11/03/2020",
       "title": "Beca de prova"
@@ -28,9 +29,11 @@
   "more_items": false,
   "total": 2
 }
+```
 
 ## /api/scholarships/{sch_id}
 
+```json
 {
   "absolute_url": "/xxx/ca/normativas/beca-de-prova",
   "academic": "",
@@ -51,7 +54,7 @@
   "incompatibilities": "",
   "organism": "<p>asdfasdfsdf</p>",
   "others": "",
-  "path": "http://localhost:8080/xxx/ca/normativas/beca-de-prova",
+  "path": "http://localhost/xxx/ca/normativas/beca-de-prova",
   "payment": "<p>Pagament</p>",
   "recipients": "<p>dsfasfasdff</p>",
   "regulations": "<p>Normatives</p>",
@@ -60,3 +63,5 @@
   "submission": "",
   "title": "Beca de prova"
 }
+
+```
