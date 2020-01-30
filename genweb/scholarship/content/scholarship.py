@@ -25,13 +25,13 @@ class IScholarship(form.Schema):
     organism = RichText(
         title=_(u"Responsible Organism"),
         description=_(u""),
-        required=False,
+        required=True,
     )
 
     recipients = RichText(
         title=_(u"Recipients"),
         description=_(u""),
-        required=False,
+        required=True,
     )
 
     others = RichText(
@@ -49,7 +49,7 @@ class IScholarship(form.Schema):
     general_requirements = RichText(
         title=_(u"General requirements"),
         description=_(u""),
-        required=True,
+        required=False,
     )
 
     academic_requirements = RichText(
@@ -106,13 +106,13 @@ class IScholarship(form.Schema):
         required=False,
     )
 
-    amount = schema.Float(
+    amount = RichText(
         title=_(u"General amount of scholarship"),
         description=_(u""),
         required=False,
     )
 
-    additional_amount = schema.Float(
+    additional_amount = RichText(
         title=_(u"Additional amounts of scholarship"),
         description=_(u""),
         required=False,

@@ -209,11 +209,11 @@ msgstr "Requisits"
 
 #: ../content/scholarship.py:26
 msgid "Responsible Organism"
-msgstr "Organisme reponsable"
+msgstr "Organisme responsable"
 
 #: ../content/scholarship_templates/view.pt:21
 msgid "Responsible Organism:"
-msgstr "Organisme reponsable:"
+msgstr "Organisme responsable:"
 
 #: ../content/scholarship.py:105
 #: ../content/scholarship_templates/view.pt:116

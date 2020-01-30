@@ -115,15 +115,13 @@
                             <li tal:condition="context/amount">
                                 <span>
                                     <strong i18n:translate="">General amount of scholarship:</strong>
-                                    <div tal:replace="structure context/amount|nothing"/>
-                                    <span>€</span>
+                                    <span tal:replace="structure context/amount/output|nothing"/>
                                 </span>
                             </li>
                             <li tal:condition="context/additional_amount">
                                 <span>
                                     <strong i18n:translate="">Additional amounts of scholarship:</strong>
-                                    <div tal:replace="structure context/additional_amount|nothing"/>
-                                    <span>€</span>
+                                    <span tal:replace="structure context/additional_amount/output|nothing"/>
                                 </span>
                             </li>
                             <li tal:condition="context/duration">
