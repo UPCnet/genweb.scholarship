@@ -33,6 +33,11 @@ class IScholarship(form.Schema):
         required=False,
     )
 
+    summary = RichText(
+        title=_(u"Summary"),
+        required=False,
+    )
+
     scholarship_type = schema.Choice(
         title=_(u'scholarship_type'),
         required=True,
