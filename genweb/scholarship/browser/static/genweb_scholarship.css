@@ -1,3 +1,7 @@
 span.icon-scholarship{
   background-position: -288px -168px;
 }
+.portaltype-scholarship div#formfield-form-widgets-IDublinCore-description,
+.template-scholarship div#formfield-form-widgets-IDublinCore-description {
+    display: none;
+}
