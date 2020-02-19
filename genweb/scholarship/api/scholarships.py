@@ -61,7 +61,7 @@ class Scholarships(REST):
                 sch_path = '/'.join(obj.getPhysicalPath()[3:])
                 scholarship = dict(title=item.Title,
                                    id=item.id,
-                                   summary=obj.summary,
+                                   summary=obj.summary.output if obj.summary else '',
                                    path=item.getURL(),
                                    sch_path=sch_path,
                                    scholarship_type=scholarship_type,
@@ -104,7 +104,7 @@ class Scholarship(REST):
             if items:
                 for item in items:
                     obj = item.getObject()
-                    summary = obj.summary
+                    summary = obj.summary.output if obj.summary else ''
                     scholarship_type = obj.scholarship_type
                     organism = obj.organism.output if obj.organism else ''
                     recipients = obj.recipients.output if obj.recipients else ''
