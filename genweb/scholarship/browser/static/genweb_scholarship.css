@@ -5,3 +5,9 @@ span.icon-scholarship{
 .template-scholarship div#formfield-form-widgets-IDublinCore-description {
     display: none;
 }
+
+@media only screen and (max-width: 639px) {
+  .content-table-overflow {
+    overflow-x: auto;
+  }
+}
