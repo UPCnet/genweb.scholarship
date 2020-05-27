@@ -2,7 +2,7 @@
 
 ## /api/scholarships
 
-Get all scholarships in site by calling: https://vvv/api/scholarships?page=z
+Get all scholarships in site by calling: https://vvv/api/scholarships
 
 ```json
 {
@@ -33,6 +33,8 @@ Get all scholarships in site by calling: https://vvv/api/scholarships?page=z
   "total": 2
 }
 ```
+
+Optional: Get scholarhisps filtered by language: https://vvv/api/scholarships?lang=xx
 
 ## /api/scholarships/{sch_id}?absolute_url=www
 
