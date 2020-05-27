@@ -29,12 +29,17 @@ class Scholarships(REST):
         results = []
         properties = api.portal.get_tool(name='portal_properties')
         sch_token = properties.scholarship_properties.sch_token
+        try:
+            lang = self.params['lang']
+        except:
+            lang = 'ca'
         if self.request.get_header('Token') == sch_token:
             scholarships = api.content.find(
                 portal_type="Scholarship",
                 review_state=['published'],
                 sort_order='descending',
                 sort_on='effective',
+                Language=lang,
                 )
             total = len(scholarships)
             items_x_page = 10  # Default items per page
