@@ -1,11 +1,12 @@
 Changelog
 =========
 
-0.3 (unreleased)
+0.3 (2020-05-28)
 ----------------
 
-- Nothing changed yet.
-
+* Update README.md [alberto.duran]
+* Scholarships by lang [alberto.duran]
+* Añadir css para visualizar mejor las tablas desde dispositivos moviles [Iago López Fernández]
 
 0.2 (2020-02-25)
 ----------------
