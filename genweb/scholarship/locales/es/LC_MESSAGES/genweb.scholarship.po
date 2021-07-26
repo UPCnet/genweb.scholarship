@@ -94,7 +94,7 @@ msgstr "Publicación de la resolución:"
 
 #: ../content/scholarship_templates/view.pt:155
 msgid "Awards"
-msgstr "Adjudicació"
+msgstr "Adjudicación"
 
 #: ../content/scholarship.py:144
 msgid "Duration of the grant"
