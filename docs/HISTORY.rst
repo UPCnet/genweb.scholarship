@@ -1,11 +1,10 @@
 Changelog
 =========
 
-0.4 (unreleased)
+0.4 (2021-09-21)
 ----------------
 
-- Nothing changed yet.
-
+* Traducción es [Iago López Fernández]
 
 0.3 (2020-05-28)
 ----------------
