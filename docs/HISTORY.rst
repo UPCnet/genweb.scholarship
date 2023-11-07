@@ -1,10 +1,9 @@
 Changelog
 =========
 
-0.5 (unreleased)
+0.5 (2023-11-07)
 ----------------
 
-- Nothing changed yet.
 
 
 0.4 (2021-09-21)
